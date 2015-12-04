@@ -1,0 +1,166 @@
+
+
+
+/*Styles généraux/*
+ * 
+ */
+
+html,
+body {
+	padding: 0;
+
+
+font-family: 'Lato', sans-serif;
+background-color: #EFEFEF;
+
+}
+
+
+
+
+
+#target-section0 {
+	padding-top:200px;
+	padding-bottom: 200px;
+	background-color:#FFFFFF;
+}
+
+#target-section1 {
+	padding-top:100px;
+	padding-bottom: 200px;
+	background-color:#ECECEC;
+}
+
+#target-section2 {
+	padding-top:100px;
+	padding-bottom: 200px;
+	background-color:#DADAD9;
+}
+
+#target-section3 {
+	padding-top:100px;
+	padding-bottom: 200px;
+	background-color:#FFFFFF;
+}
+
+#target-section4 {
+	padding-top:100px;
+	padding-bottom: 200px;
+	background-color:#ECECEC;
+}
+
+#target-section5 {
+	padding-top:100px;
+	padding-bottom: 200px;
+	background-color:#DADAD9;
+}
+
+#target-section7 {
+	padding-top:100px;
+	padding-bottom: 200px;
+	background-color:#DADAD9;
+}
+
+
+
+
+
+.photo {
+	padding:30px;
+	width: 15%;
+        height: auto;
+        position:absolute;
+        margin-left:40%;
+        margin-right: auto;
+        overflow: hidden;
+        
+}	
+
+#chapeau {
+font-family: 'Libre Baskerville', serif; 
+font-size:20px;
+width: 50%;
+margin:auto;
+}
+
+
+h1 {
+font-family: 'Libre Baskerville', serif;
+font-weight:500;
+font-size:150%;
+text-transform:uppercase;
+color: #323056;
+margin-left: auto;
+margin-right: auto;
+margin-top: 200px;
+margin-bottom:50px;
+text-align:center;
+width: 50%;
+border-bottom : 3px solid #fd7922; 
+border-top : 3px solid #fd7922;
+padding: 25px;
+}
+
+
+h2 {
+	display: none;
+}
+
+
+.idea{
+font-family: 'Lato', sans-serif;
+font-weight:bold;
+font-size: 20px;
+color: #323056;	
+width: 50%;
+text-align: justify;
+
+
+	
+}
+
+.development{
+font-family: 'Lato', sans-serif ;
+font-size: 16px;
+font-weight : 100;
+color: #fd7922;	
+width: 50%;
+text-align: justify;
+
+}
+
+.toggled {
+	font-family: 'Lato', sans-serif;
+font-size: 14px;
+padding: 12px;
+color:#323056;
+display:table;
+width: 35%;
+text-align: justify;
+
+
+}
+
+
+#lettrine{
+  font-family: 'Lato', sans-serif;
+  font-weight:800;
+font-size: 20px;
+color: #323056;	
+width: 50%;
+}
+#lettrine:first-letter {
+ 
+  font-family: 'Lato', sans-serif;
+  font-size : 40px;
+  color : #323056;
+margin-right:5px;
+  float : left;
+}
+
+.toggled:before {
+	background: url(img/arrow.svg) top no-repeat;
+} 
+/*Gestion des images SVG/*
+ * 
+ */
